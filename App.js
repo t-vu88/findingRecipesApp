@@ -33,6 +33,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.inputContainer}>
+       
         <TextInput
           style={styles.input}
           placeholder="..."
@@ -57,10 +58,10 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     padding: 20,
-    margin: 10
+    margin: 10,
   },
   inputContainer: {
-    alignItems: 'center',  // Keep input & button in center
+    alignItems: 'center',
     marginBottom: 20,
   },
   input: {
